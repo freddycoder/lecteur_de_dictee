@@ -1,3 +1,13 @@
+# ###
+  Custom .gitignore
+# ###
+
+*.mp3
+
+# ###
+  Python default .gitignore
+# ###
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
