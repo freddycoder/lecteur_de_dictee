@@ -33,7 +33,7 @@ pip3 install playsound
 
 ## TODOs
 
-* Permettre de jouer plusieurs dictée sans redémarer le programme
+* Permettre de jouer plusieurs dictées sans redémarer le programme
 * Utiliser un mécanisme de jeton pour couper le text 
 * Améliorer la gestion des pause en fonction de la longueur des phrases 
 * Ajouter un mecanisme de correction 
@@ -41,8 +41,8 @@ pip3 install playsound
     * et/ou 
     * Ajouter la possiblité d'utiliser la camera pour photographier le text 
     * Ajouter la reconnaissance de caractère 
-* Ajouter la possibilité de charger des dictée 
-* Ajouter la possibilité de sauvegarder des dictée 
+* Ajouter la possibilité de charger des dictées 
+* Ajouter la possibilité de sauvegarder des dictées
 * Améliorer la gestion des fichiers audio
 * Faire prononcer les signes de ponctuations
 * Ajouter un signal pour dire que la dictée est fini
