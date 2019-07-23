@@ -1,11 +1,23 @@
 # ###
-  Custom .gitignore
+#  Custom .gitignore
 # ###
 
+# fichier mp3
 *.mp3
 
+# dossier et fichier temporaire de l'application
+tmp
+tmp/*
+
+# dossier et fichier de configuration de l'application
+utl
+utl/*
+
+# dossier créer par visual studio code
+.vs
+
 # ###
-  Python default .gitignore
+#  Python default .gitignore
 # ###
 
 # Byte-compiled / optimized / DLL files

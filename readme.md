@@ -6,6 +6,10 @@ Ce projet est un lecteur de dictée permettant de s'entrainer à écrire. Le pro
 
 Pour l'instant la personne qui utilise le programme doit se corriger elle-même.
 
+## Image
+Capture d'écran de la fenêtre principale
+![Alt text](img/demo_readme.JPG?raw=true "Fenêtre principale du lecteur de dictée")
+
 ## Dépendance
 
 * python 3.6 
@@ -29,6 +33,7 @@ pip3 install playsound
 
 ## TODOs
 
+* Permettre de jouer plusieurs dictée sans redémarer le programme
 * Utiliser un mécanisme de jeton pour couper le text 
 * Améliorer la gestion des pause en fonction de la longueur des phrases 
 * Ajouter un mecanisme de correction 
@@ -39,3 +44,6 @@ pip3 install playsound
 * Ajouter la possibilité de charger des dictée 
 * Ajouter la possibilité de sauvegarder des dictée 
 * Améliorer la gestion des fichiers audio
+* Faire prononcer les signes de ponctuations
+* Ajouter un signal pour dire que la dictée est fini
+* Ajouter un compteur du nombre de mots dans la fenêtre
