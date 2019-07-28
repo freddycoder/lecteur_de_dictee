@@ -10,12 +10,11 @@ Pour l'instant la personne qui utilise le programme doit se corriger elle-même.
 
 ## Image
 <p align=center>
-   <i>Capture d'écran de la fenêtre principale</i>
-</p>
-   <div style="text-align:center"><img src="img/demo_readme.JPG" /></div>
-<p>
+   <i>Capture d'écran de la fenêtre principale</i><br/>
+   <img src="img/demo_readme.JPG" alt="Apperçu de la fenêtre principale" /><br/>
    <i>Le text présent dans la fenêtre à été trouvée sur ce site : https://www.ccdmd.qc.ca/fr/exercices_pdf/?id=37#</i>
 </p>
+
 ## Dépendance
 
 * python 3.6 
