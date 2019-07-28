@@ -9,10 +9,13 @@ Ce projet est un lecteur de dictée permettant de s'entrainer à écrire. Le pro
 Pour l'instant la personne qui utilise le programme doit se corriger elle-même.
 
 ## Image
+<p align=center>
 Capture d'écran de la fenêtre principale
 ![Alt text](img/demo_readme.JPG?raw=true "Fenêtre principale du lecteur de dictée")
-Le text présent dans la fenêtre à été trouvée sur ce site : https://www.ccdmd.qc.ca/fr/exercices_pdf/?id=37#
-
+</p>
+<p align=center>
+*Le text présent dans la fenêtre à été trouvée sur ce site : https://www.ccdmd.qc.ca/fr/exercices_pdf/?id=37# *
+<p>
 ## Dépendance
 
 * python 3.6 
