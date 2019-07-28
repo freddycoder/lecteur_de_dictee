@@ -10,12 +10,12 @@ Pour l'instant la personne qui utilise le programme doit se corriger elle-même.
 
 ## Image
 <p align=center>
-Capture d'écran de la fenêtre principale
-![Alt text](img/demo_readme.JPG?raw=true "Fenêtre principale du lecteur de dictée")
+   <i>Capture d'écran de la fenêtre principale</i>
 </p>
-<p align=center>
-*Le text présent dans la fenêtre à été trouvée sur ce site : https://www.ccdmd.qc.ca/fr/exercices_pdf/?id=37# *
+   <div style="text-align:center"><img src="img/demo_readme.JPG" /></div>
 <p>
+   <i>Le text présent dans la fenêtre à été trouvée sur ce site : https://www.ccdmd.qc.ca/fr/exercices_pdf/?id=37#</i>
+</p>
 ## Dépendance
 
 * python 3.6 
@@ -36,6 +36,10 @@ Linux
 pip3 install Gtts
 pip3 install playsound 
 ```
+
+## Démarer
+
+Sur windows double cliquer sur `start.bat`. Sur linux il faut faire la commande `python3 main.py`
 
 ## TODOs
 
