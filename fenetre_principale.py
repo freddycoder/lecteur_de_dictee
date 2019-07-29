@@ -11,7 +11,7 @@ class FenetrePrincipale(Tk, IParametresLecture):
     def __init__(self, options_lecture=ParametresLecture(), dictee=Dictee()):
         Tk.__init__(self)
         self.title("Lecteur de dictée")
-        self.thread_lecture = None # quand l'utilisateur appuie sur Lire, la référence est initialisé
+        self.thread_lecture = None # quand l'utilisateur appuie sur 'Lire', la référence est initialisée
 
         # Titre de la dictée
         self.TitreDicteeLabel = Label(self, text="Titre : ")
@@ -49,7 +49,7 @@ class FenetrePrincipale(Tk, IParametresLecture):
         self.NombreMotsAvantPause.pack()
 
         # Durée des pauses (en seconde)
-        self.DureePauseLabel = Label(self, text="Durée des pause entre les phrases : ")
+        self.DureePauseLabel = Label(self, text="Durée des pauses entre les phrases : ")
         self.DureePauseLabel.pack()
 
         self.DureePause = Text(self, height=1, width=4)
