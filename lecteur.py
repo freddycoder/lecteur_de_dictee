@@ -41,7 +41,7 @@ def lire_dictee(fenetre : IParametresLecture):
                 if len(fichiers) > 1:
                     os.remove(fichiers.pop(0))
 
-            except AssertionError as e: # Quand une chaine vide est envoyer à gTTS(text=" ", ...) on attrape l'exception
+            except AssertionError as e: # Quand une chaine vide est envoyée à gTTS(text=" ", ...) on attrape l'exception
                 print(e)
 
             except FileNotFoundError as e: # Quand une tentative de suppression tombe sur un fichier inexistant
