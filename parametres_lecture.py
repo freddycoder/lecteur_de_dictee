@@ -41,5 +41,5 @@ class ParametresLecture:
 
             fichier.close()
         else:
-            print("Le fichier " + str(nomFichier) + " à été trouvé, mais il n'y avait aucun contenu")
+            print("Le fichier " + str(nomFichier) + " a été trouvé, mais il n'y avait aucun contenu")
         
