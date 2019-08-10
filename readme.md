@@ -24,8 +24,16 @@ Pour l'instant la personne qui utilise le programme doit se corriger elle-même.
 
 ## Installation
 
-Windows 
-```
+Windows (powershell)
+```powershell
+# Télécharger une version de python
+curl -Uri https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe -OutFile "pythonInstaller.exe"
+# Lancer l'installation
+# N'oubliez pas de selectionner l'ajout de python dans le path
+start pythonInstaller.exe - Wait
+# Mise à jour de la variable path après l'installation
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+# Installation des librairies nécessaires
 pip install Gtts
 pip install playsound 
 ```
