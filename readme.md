@@ -17,7 +17,7 @@ Pour l'instant la personne qui utilise le programme doit se corriger elle-même.
 
 ## Dépendance
 
-* python 3.6 
+* Python 3.6 <a href="https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe">Télécharger 3.6.8 pour windows</a>
 * TKinter 
 * Gtts 
 * Playsound
